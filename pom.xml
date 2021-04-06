@@ -64,8 +64,8 @@ THE SOFTWARE.
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.level>8</java.level>
     <jenkins.version>2.263.1</jenkins.version>
-    <jetty.version>9.4.34.v20201102</jetty.version>
-    <jenkins-test-harness.version>1514.v9f0f59194dd4</jenkins-test-harness.version>
+    <jetty.version>9.4.39.v20210325</jetty.version>
+    <jenkins-test-harness.version>1521.vaea1e973d086</jenkins-test-harness.version>
     <!--TODO: Reenable once all the issues are fixed (JENKINS-57353)-->
     <findbugs.failOnError>false</findbugs.failOnError>
   </properties>
@@ -75,7 +75,7 @@ THE SOFTWARE.
       <dependency>
         <groupId>io.jenkins.tools.bom</groupId>
         <artifactId>bom-2.263.x</artifactId>
-        <version>26</version>
+        <version>27</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
@@ -103,7 +103,7 @@ THE SOFTWARE.
       <dependency>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>pipeline-utility-steps</artifactId>
-        <version>2.7.0</version>
+        <version>2.7.1</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
